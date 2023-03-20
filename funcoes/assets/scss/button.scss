@@ -1,0 +1,34 @@
+@mixin button-style($background, $color) {
+    background: $background;
+    color: $color;
+
+    &:hover {
+        background: lighten($background, 10%);
+    }
+
+    &:active {
+        background: darken($background, 10%);
+    }
+}
+
+.btn {
+    width: 120px;
+    padding: 8px 8px 8px 8px;
+    background: none;
+    border-radius: 10px;
+    position: relative;
+    border: none;
+
+    &:active {
+        top: 2px;
+    }
+
+    &.btn-orange {
+        @include button-style($color-orange, black);
+    }
+
+    &.btn-blue {
+        @include button-style(blue, black);
+    }
+}
+

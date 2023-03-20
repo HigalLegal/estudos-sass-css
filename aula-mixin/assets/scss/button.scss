@@ -1,0 +1,48 @@
+@mixin button-style($background, $color) {
+    background: $background;
+    color: $color;
+}
+
+@mixin effect-mouse($background) {
+    background: $background;
+}
+
+.btn {
+    width: 120px;
+    padding: 8px 8px 8px 8px;
+    background: none;
+    border-radius: 10px;
+    position: relative;
+    border: none;
+
+    &:active {
+        top: 2px;
+    }
+
+    &.btn-orange {
+
+        @include button-style($color-orange, black);
+        
+        &:hover {
+            @include effect-mouse($color-orange-light);
+        }
+    
+        &:active {
+            @include effect-mouse($color-orange-dark);
+        }
+    }
+
+    &.btn-blue {
+
+        @include button-style(blue, black);
+        
+        &:hover {
+            @include effect-mouse(rgb(150, 150, 255));
+        }
+    
+        &:active {
+            @include effect-mouse(rgb(0, 0, 88));
+        }
+    }
+}
+

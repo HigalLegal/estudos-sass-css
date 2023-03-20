@@ -1,0 +1,21 @@
+.btn, .btn-orange {
+  width: 120px;
+  padding: 8px 8px 8px 8px;
+  background: none;
+  border-radius: 10px;
+  position: relative;
+}
+
+.btn-orange {
+  border: 1px solid orange;
+}
+.btn-orange:hover {
+  background-color: rgb(255, 193, 77);
+}
+.btn-orange:active {
+  background-color: rgb(184, 119, 0);
+  border-color: rgb(184, 119, 0);
+  top: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */

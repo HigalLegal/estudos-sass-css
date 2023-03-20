@@ -1,0 +1,26 @@
+.container__general {
+    height: 600px;
+    width: 600px;
+
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        height: 400px;
+        width: 400px;
+
+        background-color: red;
+    }
+
+}
+
+p {
+    color: white;
+
+    span {
+        color: rgb(204, 187, 187);
+        font-weight: bold;
+    }
+}

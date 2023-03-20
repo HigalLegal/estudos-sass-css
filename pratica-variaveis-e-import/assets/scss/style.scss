@@ -1,0 +1,11 @@
+@import './variaveis.scss';
+
+.text__1 {
+    background-color: $color-primary;
+    color: $color-secundary;
+}
+
+.text__2 {
+    background-color: $color-secundary;
+    color: $color-primary;
+}

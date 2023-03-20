@@ -1,0 +1,33 @@
+.btn {
+  width: 120px;
+  padding: 8px 8px 8px 8px;
+  background: none;
+  border-radius: 10px;
+  position: relative;
+  border: none;
+}
+.btn:active {
+  top: 2px;
+}
+.btn.btn-orange {
+  background: orange;
+  color: black;
+}
+.btn.btn-orange:hover {
+  background: rgb(255, 193, 77);
+}
+.btn.btn-orange:active {
+  background: rgb(184, 119, 0);
+}
+.btn.btn-blue {
+  background: blue;
+  color: black;
+}
+.btn.btn-blue:hover {
+  background: rgb(150, 150, 255);
+}
+.btn.btn-blue:active {
+  background: rgb(0, 0, 88);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+$color-blue: blue;
+
+.btn {
+    width: 120px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 15px;
+    border: none;
+    background: none;
+    position: relative;
+
+    &:active {
+        top: 3px
+    }
+
+    &.btn-blue {
+        background: blue;
+
+        &:hover {
+            background: lighten($color-blue, 20%);
+        }
+
+        &:active {
+            background: darken($color-blue, 10%);
+        }
+
+    }
+}

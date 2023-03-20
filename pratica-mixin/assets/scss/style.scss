@@ -1,0 +1,16 @@
+@mixin colors($background, $color) {
+    background-color: $background;
+    color: $color;
+}
+
+.p1 {
+    @include colors(red, blue)
+}
+
+.p2 {
+    @include colors(yellow, rgb(0, 0, 68));
+}
+
+.p3 {
+    @include colors(yellowgreen, red);
+}

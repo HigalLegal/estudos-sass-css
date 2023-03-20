@@ -1,0 +1,22 @@
+.btn, .red {
+  width: 60px;
+  padding: 8px 8px 8px 8px;
+  border: none;
+  position: relative;
+  border-radius: 5px;
+}
+.btn:active, .red:active {
+  top: 3px;
+}
+
+.red {
+  background-color: red;
+}
+.red:hover {
+  background-color: rgb(218, 36, 36);
+}
+.red:active {
+  background-color: rgb(143, 7, 7);
+}
+
+/*# sourceMappingURL=style.css.map */

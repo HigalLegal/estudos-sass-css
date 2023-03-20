@@ -1,0 +1,25 @@
+.btn {
+    width: 60px;
+    padding: 8px 8px 8px 8px;
+    border: none;
+    position: relative;
+    border-radius: 5px;
+
+    &:active {
+        top: 3px;
+    }
+}
+
+.red {
+    @extend .btn;
+
+    background-color: red;
+
+    &:hover {
+        background-color: rgb(218, 36, 36);
+    }
+
+    &:active {
+        background-color: rgb(143, 7, 7);
+    }
+}

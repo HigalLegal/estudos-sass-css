@@ -1,0 +1,9 @@
+darken: escurece a cor em x%.
+lighten: clarea a cor em x%.
+mix: mistura a cor.
+desaturate: tira a saturação da cor em x%.
+grayscale: deixa a cor mais cinza.
+
+Artigo que fala mais sobre funções: https://devschannel.com/sass/funcoes-e-mixins-do-sass
+
+--style compressed: comprime o arquivo css de saída.
